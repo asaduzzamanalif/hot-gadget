@@ -1,0 +1,154 @@
+.bg-orange {
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.bye-now-btn {
+    background: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.padding-style {
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.orange {
+    color: orange;
+    text-decoration: none;
+}
+
+.orange:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+#categories {
+    position: relative;
+}
+.categories{
+    margin-bottom: 50px;;
+}
+#categories::after {
+    content: "";
+    position: absolute;
+    bottom: -35%;
+    left: 15%;
+    width: 75%;
+    height: 6px;
+    background: linear-gradient(45deg, #ffc221, #ff9e34);
+    border-radius: 10px;
+}
+
+.margin-area {
+    margin: 0 0 10px 0;
+}
+
+.border-none {
+    border: none;
+    box-shadow: 2px 2px 5px darkgray;
+    padding:40px;
+    border-radius: 10px;
+}
+
+.border-none.shadow {
+    box-shadow: none!important;
+}
+.border-none.shadow img {
+    width: 100%!important;
+}
+
+.border-none img {
+    width: 80%;
+}
+
+small {
+    display: block;
+    text-align: center;
+}
+
+
+    /* 
+    ============================================================
+                  All Hover Area In Here
+    ============================================================
+    */
+img {
+    transition: 1.5s;
+}
+
+.card {
+    perspective: 1000px;
+}
+
+.smartphone-area .card img {
+    transform: rotateY(40deg);
+    
+}
+
+.smartphone-area .card:hover img {
+    transform: rotateY(0);
+}
+
+.smartphone-area .col:nth-child(1) .card:hover {
+    background-image: linear-gradient(to left top, #59c173, #00c0a2, #00bbd0, #00b0f1, #009ffb, #4d8ff5, #737eea, #916ad9, #855ad3, #784acd, #6b39c7, #5d26c1);
+    color: #fff;
+}
+.smartphone-area .col:nth-child(2) .card:hover {
+    background-image: linear-gradient(to right bottom, #40e0d0, #53dba5, #79d274, #a1c542, #cab206, #df9e00, #f18811, #ff6f2c, #ff5940, #ff4154, #ff266a, #ff0080);
+    color: #fff;
+}
+.smartphone-area .col:nth-child(3) .card:hover {
+    background-image: linear-gradient(to left top, #f44336, #f11d53, #e4006f, #cd008a, #ab1da1, #943ab5, #764dc5, #4d5cd0, #3471de, #1385e8, #0097ef, #03a9f4);
+    color: #fff;
+}
+
+.laptop-area .col:nth-child(1) .card:hover {
+    background-image: linear-gradient(to right bottom, #9cecfb, #90e5fa, #85dff9, #7ad8f9, #70d1f8, #58c5f7, #3fb9f6, #23adf4, #0098f0, #0082eb, #006be1, #0052d4);
+    color: #fff;
+}
+.laptop-area .col:nth-child(2) .card:hover {
+    background-image: linear-gradient(to right bottom, #a770ef, #af75f0, #b77af0, #bf7ff1, #c684f2, #db84e7, #eb86dc, #f78ad2, #ff91bb, #ff9ca9, #ffaa9e, #fdb99b);
+    color: #fff;
+}
+.laptop-area .col:nth-child(3) .card:hover {
+    background-image: linear-gradient(to right bottom, #833ab4, #b123a4, #d3008c, #eb0070, #f90051, #fe2941, #ff412f, #fe5618, #fe711b, #fd8825, #fd9d33, #fcb045);
+    color: #fff;
+}
+
+.laptop-area .col .card:hover img{
+    transform: rotateY(180deg);
+}
+
+button {
+    transition: 1s;
+}
+
+.smartphone-area button:active,
+.laptop-area button:active {
+    background: darkorange;
+    color: rgb(0, 0, 0);
+}
+
+.shadow img:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    transition: 1s;
+}
+
+.container:hover h2 {
+    color: orangered;
+}
